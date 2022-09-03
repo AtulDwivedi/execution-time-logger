@@ -1,2 +1,3 @@
-app:
-  execution-time-logger: true
+execution-time-tracker:
+  log:
+    enabled: true

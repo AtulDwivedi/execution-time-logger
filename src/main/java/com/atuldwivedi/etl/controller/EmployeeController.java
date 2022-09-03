@@ -1,8 +1,8 @@
 package com.atuldwivedi.etl.controller;
 
-import com.atuldwivedi.etl.logger.annotation.TrackExecutionTime;
 import com.atuldwivedi.etl.model.Employee;
 import com.atuldwivedi.etl.service.EmployeeService;
+import com.atuldwivedi.starter.execution.time.tracker.annotation.TrackExecutionTime;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;

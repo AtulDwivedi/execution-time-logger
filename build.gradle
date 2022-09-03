@@ -16,11 +16,14 @@ configurations {
 
 repositories {
     mavenCentral()
+    mavenLocal()
 }
 
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'org.springframework.boot:spring-boot-starter-aop'
+    implementation('com.atuldwivedi:execution-time-tracker-starter:1.0.0-SNAPSHOT')
+//    implementation group: 'com.atuldwivedi', name: 'execution-time-tracker-starter', version: '1.0.0-SNAPSHOT'
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'
 
