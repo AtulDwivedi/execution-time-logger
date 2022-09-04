@@ -1,3 +1,4 @@
 execution-time-tracker:
+  enabled: true
   log:
-    enabled: true
+    level: trace

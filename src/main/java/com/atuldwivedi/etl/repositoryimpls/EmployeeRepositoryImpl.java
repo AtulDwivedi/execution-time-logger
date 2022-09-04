@@ -26,7 +26,7 @@ public class EmployeeRepositoryImpl implements EmployeeRepository {
 
 
     @Override
-    @TrackExecutionTime
+    @TrackExecutionTime(logLevel = "warn", logMessagePrefix = "Saving ")
     public void saveEmployee(Employee employee) {
         log.info("Employee record with ID: {} saved successfully.", employee.getId());
     }
